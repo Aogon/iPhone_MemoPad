@@ -13,6 +13,7 @@
 		799DE10125CE698200C8237C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799DE0FF25CE698200C8237C /* Main.storyboard */; };
 		799DE10325CE698500C8237C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799DE10225CE698500C8237C /* Assets.xcassets */; };
 		799DE10625CE698500C8237C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799DE10425CE698500C8237C /* LaunchScreen.storyboard */; };
+		799DE10F25CE6A0F00C8237C /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DE10E25CE6A0F00C8237C /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		799DE10225CE698500C8237C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		799DE10525CE698500C8237C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		799DE10725CE698500C8237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799DE10E25CE6A0F00C8237C /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				799DE10225CE698500C8237C /* Assets.xcassets */,
 				799DE10425CE698500C8237C /* LaunchScreen.storyboard */,
 				799DE10725CE698500C8237C /* Info.plist */,
+				799DE10E25CE6A0F00C8237C /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799DE10F25CE6A0F00C8237C /* MemoViewController.swift in Sources */,
 				799DE0FE25CE698200C8237C /* ViewController.swift in Sources */,
 				799DE0FA25CE698200C8237C /* AppDelegate.swift in Sources */,
 				799DE0FC25CE698200C8237C /* SceneDelegate.swift in Sources */,
